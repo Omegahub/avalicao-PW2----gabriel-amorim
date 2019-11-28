@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'etec-base';
+  foto = 'favicon.ico';
+  nome: string = "Thiago";
+  
+  msgAlerta(): void {
+    alert('Livro Angular 2');
+    }
 }
+
+
